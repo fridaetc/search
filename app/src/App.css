@@ -1,0 +1,62 @@
+.App {
+}
+
+.Login form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background: #2b2c31;
+}
+
+.Login input {
+  display: block;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 18px;
+  border: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.Login input[type="submit"] {
+  background: #42A5F5;
+  margin-bottom: 0;
+}
+
+.Header {
+  float: right;
+  background: #2b2c31;
+  padding: 10px;
+  text-align: right;
+  width: 100%;
+}
+
+.Header span {
+  font-size: 14px;
+}
+
+.Header span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Welcome {
+  color: #42A5F5;
+  margin: 0;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.Error {
+  position: absolute;
+  background: #d44646;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  width: 240px;
+  margin: auto;
+}

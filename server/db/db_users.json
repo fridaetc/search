@@ -1,0 +1,12 @@
+{
+  "users": [
+    {"id": 1, "name": "Lisa", "username": "lisa", "pw": "$2b$10$W1PZBPRHOvroPngcNjQn7e/LoAW1MXijH5hV70JPaxnVFF1atzc3K"},
+    {"id": 2, "name": "Gene", "username": "gene", "pw": "$2b$10$W1PZBPRHOvroPngcNjQn7e/LoAW1MXijH5hV70JPaxnVFF1atzc3K"},
+    {"id": 3, "name": "Mike", "username": "mike", "pw": "$2b$10$W1PZBPRHOvroPngcNjQn7e/LoAW1MXijH5hV70JPaxnVFF1atzc3K"},
+    {"id": 4, "name": "Claudia", "username": "claudia", "pw": "$2b$10$W1PZBPRHOvroPngcNjQn7e/LoAW1MXijH5hV70JPaxnVFF1atzc3K"},
+    {"id": 5, "name": "Mick", "username": "mick", "pw": "$2b$10$W1PZBPRHOvroPngcNjQn7e/LoAW1MXijH5hV70JPaxnVFF1atzc3K"},
+    {"id": 6, "name": "Jack", "username": "jack", "pw": "$2b$10$W1PZBPRHOvroPngcNjQn7e/LoAW1MXijH5hV70JPaxnVFF1atzc3K"},
+    {"id": 7, "name": "Toby", "username": "toby", "pw": "$2b$10$W1PZBPRHOvroPngcNjQn7e/LoAW1MXijH5hV70JPaxnVFF1atzc3K"},
+    {"id": 8, "name": "Frida", "username": "frida", "pw": "$2b$10$W1PZBPRHOvroPngcNjQn7e/LoAW1MXijH5hV70JPaxnVFF1atzc3K"}
+  ]
+}

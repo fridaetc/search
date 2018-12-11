@@ -1,0 +1,17 @@
+{
+  "name": "search-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "lowdb": "^1.0.0",
+    "mongodb": "^3.1.10",
+    "sanitize": "^2.1.0"
+  }
+}

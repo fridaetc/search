@@ -1,0 +1,8 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "start:app": "cd app && npm start"
+  }
+}

@@ -1,0 +1,46 @@
+.ListWrapper {
+  width: 100%;
+  background: #36373c;
+  float: left;
+}
+
+.ListWrapper h1 {
+  float: left;
+  padding-left: 20px;
+}
+
+.ListWrapper .List {
+  padding: 0 20px;
+  background: #1d1e22;
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.ListWrapper input.Search {
+  float: right;
+  margin-top: 21px;
+  margin-right: 20px;
+  width: 300px;
+}
+
+.ListWrapper .List div {
+  padding: 1px 0;
+}
+
+.ListWrapper .List a {
+    color: #42A5F5!important;
+}
+
+.ListWrapper .List .Row:nth-child(even) {
+  color: #999;
+}
+
+.ListWrapper table td, .ListWrapper table th {
+  padding: 5px;
+  text-align: left;
+}
+
+.Right {
+  text-align: right!important;
+}
