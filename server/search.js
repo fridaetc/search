@@ -128,15 +128,19 @@ function addWordsAndPages(filePath, fileName, cb) {
 
   //Read words
   fs.readFile(filePath, 'utf8', function(err, data) {
-    let words = data.trim().split(' ');
-    let wordIds = new Array(words.length);
+    if(data) {
+      let words = data.trim().split(' ');
+      let wordIds = new Array(words.length);
 
-    words.forEach((word, i) => {
-      wordIds[i] = getSetWordId(word);
-    });
+      words.forEach((word, i) => {
+        wordIds[i] = getSetWordId(word);
+      });
 
-    setPage(url, wordIds);
-    cb(null);
+      setPage(url, wordIds);
+      cb(null);
+    } else {
+      cb(err);
+    }
   });
 }
 
