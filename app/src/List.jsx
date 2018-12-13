@@ -51,7 +51,7 @@ export default class List extends Component {
             <tbody>
             { this.state.list.map((item, i) => (
               <tr key={i} className="Row">
-                <td><a target="_blank" rel="noopener noreferrer" href={wikiPath + item.url}>{item.url}</a></td>
+                <td><a target="_blank" rel="noopener noreferrer" href={wikiPath + item.url}>{unescape(item.url)}</a></td>
                 <td className="Right" title={item.score}>{item.score}</td>
                 <td className="Right" title={item.frequencyScore}>{item.frequencyScore}</td>
                 <td className="Right" title={item.locationScore}>{item.locationScore}</td>
